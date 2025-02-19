@@ -7,7 +7,6 @@ async function main() {
     await voting.waitForDeployment();
     const address = await voting.getAddress();
     console.log("Voting contract deployed to: ", address);
-    // 0x5FbDB2315678afecb367f032d93F642f64180aa3
 }
 
 main().catch((error) => {
